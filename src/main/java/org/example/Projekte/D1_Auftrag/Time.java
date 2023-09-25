@@ -58,7 +58,7 @@ public class Time {
                 }
             }
         }
-        return this; // ermöglicht das Verketten von Aufrufen
+        return this;
     }
 
     @Override
@@ -66,4 +66,5 @@ public class Time {
         return String.format("%02d:%02d:%02d", hour, minute, second);
     }
 }
+
 
